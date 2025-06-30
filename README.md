@@ -104,4 +104,4 @@ DIVIDE(
 )
 ## 📊 Power BI Dashboard Preview
 
-![Power BI Dashboard](PowerBI_Screenshots/Healthcare_Analysis_Report.png)
+![Power BI Dashboard](Images/Healthcare_Analysis_report.png)
