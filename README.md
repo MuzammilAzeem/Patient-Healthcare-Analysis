@@ -1,11 +1,9 @@
 # Patient-Healthcare-Analysis
 This project focuses on analyzing healthcare operational data to uncover key performance insights across hospitals and departments. It demonstrates end-to-end data handling—from cleaning and modeling to visualization and storytelling.
 
---SQL Queries for the KPI's
+## SQL Queries for the Data model and KPI's
 
--- select * FROM data_healthcare_lab;
-
--- Data Model 
+Data Model 
 SELECT P.`Patient ID`, P.FirstName,  P.Gender, P.DateOfBirth, P.Age, P.BloodType, P.InsuranceProvider, 
  P.State, P.City, P.Country, P.MedicalHistory, P.Race, P.Ethnicity, P.`Marital Status`, P.`Chronic Conditions`, 
  P.Allergies, D.`Doctor ID`, D.`Doctor Name`, D.Specialty, D.`Years Of Experience`, D.Specialization,
@@ -19,7 +17,7 @@ SELECT P.`Patient ID`, P.FirstName,  P.Gender, P.DateOfBirth, P.Age, P.BloodType
  LEFT JOIN lab_result L ON L.`Visit ID` = V.`Visit ID`
  ORDER BY `Visit Date` DESC;
  
- 
+ --select * FROM data_healthcare_lab;
  
  -- Total Patient count 
  SELECT COUNT(`Patient ID`) FROM patients;
@@ -104,9 +102,3 @@ DIVIDE(
     COUNT('PatientData'[PatientID]),
     DISTINCTCOUNT('PatientData'[DoctorID])
 )
-
-## 📊 Power BI Dashboard Preview
-
-Here is a snapshot of the dashboard created in Power BI:
-
-![Power BI Dashboard]("C:\Users\azeem\Desktop\Healthcare Analysis report.png")
