@@ -105,3 +105,8 @@ DIVIDE(
     DISTINCTCOUNT('PatientData'[DoctorID])
 )
 
+## 📊 Power BI Dashboard Preview
+
+Here is a snapshot of the dashboard created in Power BI:
+
+![Power BI Dashboard]("C:\Users\azeem\Desktop\Healthcare Analysis report.png")
