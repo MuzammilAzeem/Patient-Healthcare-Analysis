@@ -102,3 +102,6 @@ DIVIDE(
     COUNT('PatientData'[PatientID]),
     DISTINCTCOUNT('PatientData'[DoctorID])
 )
+## 📊 Power BI Dashboard Preview
+
+![Power BI Dashboard](PowerBI_Screenshots/Healthcare_Analysis_Report.png)
