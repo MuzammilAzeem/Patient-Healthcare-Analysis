@@ -105,3 +105,6 @@ DIVIDE(
 ## 📊 Power BI Dashboard Preview
 
 ![Power BI Dashboard](Images/Healthcare_Analysis_report.png)
+
+## TABLEAU Dashboard Preview
+![Tableau Dashboard](Images/Healthcare_Analysis_report_Tablue.png)
